@@ -1,0 +1,23 @@
+/* 카카오 작은글씨 */
+@font-face {
+    font-family: "KakaoSmallFont";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: swap;
+}
+
+/* 경기천년제목 */
+@font-face {
+    font-family: "GyeonggiMillenniumTitle";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff") format("woff");
+    font-weight: 300;
+    font-display: swap;
+}
+
+.text {
+    font-family: "KakaoSmallFont";
+}
+
+.title-text {
+    font-family: "GyeonggiMillenniumTitle";
+}
