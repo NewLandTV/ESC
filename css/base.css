@@ -14,10 +14,16 @@
     font-display: swap;
 }
 
+body {
+    background: #027b76;
+}
+
 .text {
     font-family: "KakaoSmallFont";
+    color: white;
 }
 
 .title-text {
     font-family: "GyeonggiMillenniumTitle";
+    color: white;
 }

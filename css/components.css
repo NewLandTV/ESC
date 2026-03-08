@@ -22,6 +22,48 @@ a:hover {
     text-decoration: none;  /* 마우스를 올렸을 때도 밑줄 숨김 */
 }
 
+main {
+    display: flex;
+    align-items: baseline;  /* 텍스트 기준선 정렬 */
+    gap: 32px;
+    padding: 64px 0;
+}
+
+aside {
+    max-width: 128px;   /* 최대 영역 크기 */
+    flex: 1;    /* 최대 20% 차지 */
+    background: #020202;
+    padding: 16px;
+    border-radius: 0 8px 8px 0;
+}
+
+ul {
+    list-style: none;   /* 마커 제거 */
+    padding: 0; /* 왼쪽 여백(들여쓰기) 제거 */
+    margin: 0;  /* 상하 여백 제거 */
+}
+
+article {
+    flex: 4;    /* 최소 80% 이상 차지 */
+    background: #020202;
+    padding: 24px;
+    border-radius: 8px 0 0 8px;
+}
+
+@media(max-width: 40rem) {
+    main {
+        padding: 24px;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    article {
+        border-radius: 8px;
+    }
+}
+
 footer {
     width: 800px;
     display: flex;
