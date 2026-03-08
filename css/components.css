@@ -64,6 +64,13 @@ article {
     }
 }
 
+hr {
+    margin: 20px 0; /* 위아래 간격 */
+    border: 0;
+    height: 1px;
+    background: white;
+}
+
 footer {
     width: 800px;
     display: flex;
