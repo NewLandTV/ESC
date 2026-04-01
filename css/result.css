@@ -1,14 +1,9 @@
-.big-text {
-    margin: 8px 0 4px;
-    font-size: 64px;
-}
-
-.nav-home {
+.nav-result {
     color: #ffad15;
     transition: all 0.2s;   /* 부드러운 전환 효과 */
 }
 
-.nav-home:active {
+.nav-result:active {
     color: white;
     font-weight: bold;
     box-shadow: 0 0 10px rgba(0, 120, 255, 0.6);    /* 빛나는 효과 */
