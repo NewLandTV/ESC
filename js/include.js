@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
     // 모든 HTML 요소를 가져옵니다.
     const elements = document.getElementsByTagName("*");
     const array = Array.from(elements);
